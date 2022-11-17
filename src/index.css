@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Cormorant+Garamond:wght@300&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* font import link */
+
+@layer base {
+  /* global reset values */
+  * {
+    @apply m-0 box-border p-0;
+  }
+  html {
+    @apply h-screen focus-within:scroll-smooth;
+  }
+  body {
+    @apply mx-auto h-full max-w-[1920px] overflow-x-hidden bg-black leading-[1.5rem];
+  }
+  ul,
+  ol {
+    @apply list-none;
+  }
+  a {
+    @apply no-underline;
+  }
+  button,
+  input {
+    @apply outline-0;
+  }
+  img {
+    @apply block max-w-full;
+  }
+  iframe {
+    @apply border-0;
+  }
+}
+
+@layer components {
+  /* reuseable components */
+  .con {
+    @apply mx-auto w-[90%];
+  }
+}
+
+@layer utilities {
+}
