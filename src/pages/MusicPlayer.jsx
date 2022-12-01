@@ -15,11 +15,11 @@ function MusicPlayer() {
     <div
       className="relative mx-auto my-8 flex h-[700px] w-[400px] flex-col rounded-xl  py-2 px-4 text-white"
       style={{
-        backgroundColor: "#322840",
+        backgroundColor: "#421CA9",
         backgroundImage: `
-            radial-gradient(at 21% 33%, #1f2460 0px, transparent 50%),
-            radial-gradient(at 79% 32%, #2d1e51 0px, transparent 50%),
-            radial-gradient(at 26% 83%, #0f2451 0px, transparent 50%)`,
+            radial-gradient(at 21% 33%, #5D97F3 0px, transparent 50%),
+            radial-gradient(at 79% 32%, #6067B5 0px, transparent 50%),
+            radial-gradient(at 26% 83%, #421CA9 0px, transparent 50%)`,
       }}
     >
       <Header />
